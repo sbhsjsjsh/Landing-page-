@@ -2,17 +2,17 @@ import type {Metadata} from 'next';
 import './globals.css'; // Global styles
 
 export const metadata: Metadata = {
-  title: 'My Google AI Studio App',
-  description: 'An application built with Google AI Studio.',
+  title: 'Find your dream home',
+  description: 'A clean, modern landing page for Indian real estate featuring a headline, sub-headline, and bullet points.',
   openGraph: {
-    title: 'My Google AI Studio App',
-    description: 'An application built with Google AI Studio.',
+    title: 'Find your dream home',
+    description: 'A clean, modern landing page for Indian real estate featuring a headline, sub-headline, and bullet points.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'My Google AI Studio App',
-    description: 'An application built with Google AI Studio.',
+    title: 'Find your dream home',
+    description: 'A clean, modern landing page for Indian real estate featuring a headline, sub-headline, and bullet points.',
   },
 };
 

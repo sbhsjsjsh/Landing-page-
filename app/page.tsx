@@ -58,8 +58,9 @@ export default function RealEstateLandingPage() {
 
             {/* Call to Actions (Mobile friendly flex-col to flex-row) */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#enquiry-form" className="bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-emerald-500/20 flex items-center justify-center">
+              <a href="#enquiry-form" className="group relative w-full sm:w-auto bg-gradient-to-r from-emerald-400 to-emerald-600 hover:from-emerald-300 hover:to-emerald-500 text-slate-950 font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)] hover:shadow-[0_0_40px_-5px_rgba(16,185,129,0.7)] hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 ring-1 ring-emerald-300/50">
                 Book a Free Site Visit
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
               <button className="bg-white/10 hover:bg-white/20 text-white backdrop-blur-sm border border-white/20 font-semibold text-lg px-8 py-4 rounded-xl transition-all flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
@@ -130,10 +131,10 @@ export default function RealEstateLandingPage() {
                 
                 <button 
                   type="submit" 
-                  className="w-full bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-emerald-500/20 flex items-center justify-center gap-2 mt-4"
+                  className="group w-full bg-gradient-to-r from-emerald-400 to-emerald-600 hover:from-emerald-300 hover:to-emerald-500 text-slate-950 font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 shadow-[0_0_30px_-5px_rgba(16,185,129,0.4)] hover:shadow-[0_0_40px_-5px_rgba(16,185,129,0.7)] hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 mt-4 ring-1 ring-emerald-300/50"
                 >
                   Get Detailed Brochure
-                  <ArrowRight className="w-5 h-5" />
+                  <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </button>
                 
                 <p className="text-xs text-neutral-500 text-center mt-4">
