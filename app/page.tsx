@@ -9,7 +9,7 @@ export default function RealEstateLandingPage() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://picsum.photos/seed/apartment/1920/1080"
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop"
             alt="Premium Apartments in India"
             fill
             className="object-cover"
@@ -62,10 +62,6 @@ export default function RealEstateLandingPage() {
                 Book a Free Site Visit
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
-              <button className="bg-white/10 hover:bg-white/20 text-white backdrop-blur-sm border border-white/20 font-semibold text-lg px-8 py-4 rounded-xl transition-all flex items-center justify-center gap-2">
-                <Phone className="w-5 h-5" />
-                Request Callback
-              </button>
             </div>
           </div>
         </div>
