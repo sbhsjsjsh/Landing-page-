@@ -1,0 +1,8 @@
+{
+  "name": "Indian Real Estate Landing Page",
+  "description": "A clean, modern landing page for Indian real estate featuring a headline, sub-headline, and bullet points without navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
